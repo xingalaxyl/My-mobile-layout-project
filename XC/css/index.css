@@ -1,0 +1,141 @@
+body {
+  min-width: 320px;
+  max-width: 540px;
+  margin: 0 auto;
+  background-color: #ccc;
+  color: #666;
+  font-size: 14px;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+header {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  min-width: 320px;
+  max-width: 540px;
+  height: 44px;
+  border-bottom: 1px solid #ccc;
+  background-color: #F6F6F6;
+}
+header .search {
+  flex: 1;
+  height: 30px;
+  line-height: 30px;
+  padding-left: 25px;
+  background-color: #fff;
+  margin: 7px 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+header .search::before {
+  content: "";
+  display: block;
+  width: 15px;
+  height: 15px;
+  background: url('../imgs/sprite.png') no-repeat -59px -279px;
+  background-size: 104px;
+  position: absolute;
+  top: 6px;
+  left: 5px;
+}
+header .info {
+  display: flex;
+  flex-direction: column;
+  width: 44px;
+  height: 44px;
+}
+header .info .img {
+  width: 23px;
+  height: 23px;
+  background: url('../imgs/sprite.png') no-repeat -59px -194px;
+  background-size: 104px;
+  margin: 3px 0;
+}
+.banner {
+  padding-top: 45px;
+}
+.banner a img {
+  width: 100%;
+}
+.nav_1 {
+  display: flex;
+  height: 64px;
+  background-color: #fff;
+  margin: 3px 5px;
+  border-radius: 5px;
+}
+.nav_1 a {
+  flex: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nav_1 a .icon_1 {
+  width: 32px;
+  height: 32px;
+  background: url('../imgs/localnav_bg.png') no-repeat;
+  background-size: 100%;
+  margin: 5px 0;
+}
+nav {
+  color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+nav .main {
+  display: flex;
+  height: 88px;
+  background: -webkit-linear-gradient(0, #FA5A55, #FA994D);
+}
+nav .main:nth-child(2) {
+  margin: 5px 0;
+}
+nav .main .box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+nav .main .box:nth-child(n+2) {
+  border-left: 1px solid #fff;
+}
+nav .main .box:nth-child(1) {
+  background: url('../imgs/hotel.png') no-repeat;
+  background-size: 106px;
+  background-position: center bottom;
+}
+nav .main .box span {
+  flex: 1;
+  width: 100%;
+  line-height: 44px;
+  text-align: center;
+}
+nav .main .box span:nth-child(2) {
+  border-top: 1px solid #fff;
+}
+.nav_2 {
+  display: flex;
+  flex-wrap: wrap;
+  height: 128px;
+  background-color: #fff;
+  margin: 3px 5px;
+  border-radius: 5px;
+}
+.nav_2 a {
+  flex: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nav_2 a .icon_1 {
+  width: 32px;
+  height: 32px;
+  background: url('../imgs/localnav_bg.png') no-repeat;
+  background-size: 100%;
+  margin: 5px 0;
+}
