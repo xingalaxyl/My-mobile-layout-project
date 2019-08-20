@@ -11,7 +11,9 @@
 
 ## rem + 媒体查询 + flex
 
-
+[rem + 媒体查询 + flex](http://demo.xingalaxy.com/solo/rem/rem_媒体查询_flex/)
 
 ##  rem + flexible.js + flex
+
+[rem + flexible.js + flex](http://demo.xingalaxy.com/solo/rem/rem_flexible.js_flex/)
 
