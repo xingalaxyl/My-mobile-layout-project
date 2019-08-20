@@ -1,0 +1,84 @@
+body {
+    width: 750rem/75;
+    margin: 0 auto;
+    font-size: 22rem/75;
+}
+a {
+    text-decoration: none;
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+
+// 顶部搜索区
+header {
+    display: flex;
+    width: 750rem/75;
+    height: 88rem/75;
+    position: fixed;
+    background-color: orange;
+    .left{
+        width: 40rem/75;
+        height: 70rem/75;
+        margin: 9rem/75 15rem/75;
+        background: url('../imgs/classify.png') no-repeat;
+        background-size: 100%;
+    }
+    .mid {
+        flex: 1;
+        margin: 10rem/75 0;
+        border-radius: (88-2*10)/2rem/75;
+        background-color: #fff;
+        line-height: 68rem/75;
+        padding-left: 35rem/75;
+    }
+    .right {
+        width: 88rem/75;
+        height: 88rem/75;
+        line-height: 88rem/75;
+        text-align: center;
+        color: #fff;
+    }
+}
+
+// banner区域
+.banner {
+    a {
+        img {
+            width: 100%;
+            display: block;
+        }
+    }
+}
+
+.ads {
+    display: flex;
+    a {
+        flex: 1;
+        img {
+            width: 100%;
+        }
+    }
+}
+
+
+// nav区域
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    a {
+        flex: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img {
+            width: 82rem/75;
+            margin: 10rem/75 0;
+        }
+        span {
+            color: #666;
+        }
+    }
+}
