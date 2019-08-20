@@ -3,9 +3,9 @@
 
 ### 流式布局
 
-[京东案例](http://demo.xingalaxy.com/solo/liushi-flex/JD/index.html)
+* [京东案例（流式布局+flex）](http://demo.xingalaxy.com/solo/liushi-flex/JD/index.html)
 
 ### flex 布局 （伸缩布局，弹性布局）
 
-[携程案例](http://demo.xingalaxy.com/solo/less-flex/CX/index.html)
+* [携程案例](http://demo.xingalaxy.com/solo/less-flex/CX/index.html)
 
